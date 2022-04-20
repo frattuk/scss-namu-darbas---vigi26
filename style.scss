@@ -1,0 +1,62 @@
+
+
+body {
+    background-color: #e3e3e3;
+    padding: 18px 70px;
+}
+.container {
+    background-color: white;
+    padding: 18px;
+
+    .cards {
+        
+        display: flex;
+        justify-content: space-around;
+        padding: 16px;
+        margin: 0 5px;
+        
+
+        .card1  {
+
+            border-right:  1px solid  #e3e3e3;
+            padding: 0 16px;
+
+        }
+        p {
+            text-align: center;
+            align-items: center;
+            color: #73829e;
+           
+            }
+            .top {
+                color: #080f1a;
+        }
+        .price {
+            text-align: center;
+            align-items: center;
+            width: 120px;
+            height: 50px;
+            background-color: #f4f6fc;
+            border-radius: 22px;
+            color: black;
+            font-size: 18px;
+
+        }
+
+         
+
+        }
+
+
+}
+
+
+button {
+    text-align: center;
+    align-items: center;
+    width: 120px;
+    height: 50px;
+    color: #303ca5;
+}
+   
+

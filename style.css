@@ -1,0 +1,60 @@
+body {
+  background-color: #e3e3e3;
+  padding: 18px 70px;
+}
+
+.container {
+  background-color: white;
+  padding: 18px;
+}
+
+.container .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 16px;
+  margin: 0 5px;
+}
+
+.container .cards .card1 {
+  border-right: 1px solid  #e3e3e3;
+  padding: 0 16px;
+}
+
+.container .cards p {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #73829e;
+}
+
+.container .cards .top {
+  color: #080f1a;
+}
+
+.container .cards .price {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 120px;
+  height: 50px;
+  background-color: #f4f6fc;
+  border-radius: 22px;
+  color: black;
+  font-size: 18px;
+}
+
+button {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 120px;
+  height: 50px;
+  color: #303ca5;
+}
+/*# sourceMappingURL=style.css.map */
